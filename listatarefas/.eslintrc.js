@@ -14,7 +14,7 @@ module.exports = {
       Atomics: 'readonly',
       SharedArrayBuffer: 'readonly',
     },
-    parser: '@babel/eslint-parser',
+    parser: '@eslint',
     parserOptions: {
       ecmaFeatures: {
         jsx: true,
