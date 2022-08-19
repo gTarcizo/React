@@ -1,0 +1,22 @@
+.tarefas li {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+}
+.tarefas li:hover {
+    transition: 500ms;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+.tarefas li .buttonEdit{
+    padding: 4px;
+    cursor: pointer;
+}
+.tarefas li .buttonEdit:hover{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 150ms;
+}

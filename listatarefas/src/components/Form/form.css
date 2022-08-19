@@ -1,0 +1,41 @@
+.form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.form input[type="text"]{
+    height: 15px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 40px 0 0 40px;
+    min-width: 40%;
+    text-align: center;
+    align-items: center;
+    outline: none;
+}
+
+button[type="submit"]{
+    border: none;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button[type="submit"]:hover{
+    background-color: #ffffff3b;
+    color: white;
+    transition: 250ms;
+  }
+
+  .tarefas{
+      margin-top: 20px;
+  }
+
+  .tarefas span{
+    display: flex;
+    align-items: center;
+
+  }
