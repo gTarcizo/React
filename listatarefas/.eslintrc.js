@@ -14,15 +14,16 @@ module.exports = {
       Atomics: 'readonly',
       SharedArrayBuffer: 'readonly',
     },
-    parser: '@eslint',
+    parser: '@babel/eslint-parser',
     parserOptions: {
-      ecmaFeatures: {
-        jsx: true,
-      },
-      ecmaVersion: 'latest',
-      sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+        },
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        requireConfigFile: false,
     },
-    plugins: ['react', 'prettier', 'react-hooks'],
+    plugins: ['react', 'prettier', 'react-hooks', 'jsx'],
     settings: {
       react: {
         version: 'detect',
